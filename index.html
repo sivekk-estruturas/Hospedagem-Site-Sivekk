@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sivekk Estruturas Metálicas | Desde 1994 em Curitiba e região</title>
+<meta name="theme-color" content="#0C2A1F">
+<link rel="icon" type="image/png" href="imagens/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Sivekk Estruturas Metálicas">
+<meta property="og:title" content="Sivekk Estruturas Metálicas | Desde 1994 em Curitiba e região">
+<meta property="og:description" content="Soluções e estruturas metálicas sob medida desde 1994 em Curitiba e Região Metropolitana. Peça seu orçamento pelo WhatsApp.">
+<meta name="description" content="Soluções e estruturas metálicas sob medida desde 1994 em Curitiba e Região Metropolitana: estruturas, coberturas, escadas, mezaninos, fachadas, portões e telhas. Peça seu orçamento pelo WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Sivekk Estruturas Metálicas",
+  "description": "Soluções e estruturas metálicas sob medida desde 1994 em Curitiba e Região Metropolitana.",
+  "telephone": "+55 41 3205-6808",
+  "email": "sivekobrasmetalicas@hotmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "R. Marechal Octávio Saldanha Mazza, 8788",
+    "addressLocality": "Curitiba",
+    "addressRegion": "PR",
+    "postalCode": "81150-060",
+    "addressCountry": "BR"
+  },
+  "areaServed": "Curitiba e Região Metropolitana",
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "08:00", "closes": "18:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:00", "closes": "17:00"}
+  ],
+  "sameAs": ["https://www.instagram.com/sivekestruturasmetalicas/"]
+}
+</script>
+<style>
+:root{
+  --verde:#12382A; --verde-2:#0C2A1F; --verde-3:#1B4A38;
+  --amarelo:#F8D117; --aco:#E8EAE5; --aco-2:#D3D7D0; --cinza:#56625B; --branco:#fff;
+  --titulo:'Barlow Condensed','Arial Narrow',Arial,sans-serif;
+  --texto:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+  --max:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font-family:var(--texto);color:var(--verde);background:var(--aco);line-height:1.6;font-size:16px}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:min(var(--max),100% - 40px);margin-inline:auto}
+:focus-visible{outline:3px solid var(--amarelo);outline-offset:3px}
+h1,h2,h3{font-family:var(--titulo);font-weight:700;line-height:1.02;letter-spacing:.01em}
+h2{font-size:clamp(2.05rem,4.6vw,3.2rem);line-height:1.08;max-width:16ch}
+.btn{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.5rem;font:600 1rem var(--texto);text-decoration:none;border:2px solid var(--amarelo);background:var(--amarelo);color:var(--verde-2);cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn:hover{background:transparent;color:var(--amarelo)}
+.btn.sec{background:transparent;color:var(--branco);border-color:rgba(255,255,255,.45)}
+.btn.sec:hover{border-color:var(--amarelo);color:var(--amarelo)}
+.btn.esc{background:var(--verde);border-color:var(--verde);color:var(--amarelo)}
+.btn.esc:hover{background:transparent;color:var(--verde)}
+.sobre .txt .btn.esc{margin-top:.8rem}
+.btn svg{width:20px;height:20px;fill:currentColor}
+
+.dica{font-size:.9rem;font-weight:400;color:var(--cinza);line-height:1.45}
+.orc .dica{color:#4a4520}
+.dados{list-style:none;margin:1.3rem 0 1.6rem;border-top:1px solid var(--aco-2)}
+.dados li{padding:.65rem 0;border-bottom:1px solid var(--aco-2);font-size:.95rem}
+.logo img{height:46px;width:auto;flex:none}
+.logo span{font:600 .86rem/1.05 var(--titulo);letter-spacing:.14em;text-transform:uppercase;color:var(--aco-2)}
+.historia{margin-top:1.6rem;padding-left:1.1rem;border-left:4px solid var(--amarelo)}
+.historia h3{font-size:1.6rem;margin-bottom:.3rem}
+.ig{font-weight:600;text-decoration:none;box-shadow:0 2px 0 var(--amarelo);transition:color .2s,box-shadow .2s}
+.dif .sub{color:var(--aco-2);max-width:54ch;margin-top:1.2rem}
+.parc{background:var(--aco-2)}
+.parc .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:3.25rem;align-items:start}
+.parc .dados,.parc .dados li{border-color:#a9afa7}
+.parc p{color:#27413a}
+.sobre .bloco strong{display:block;font:700 6rem/.9 var(--titulo);color:var(--amarelo);margin-top:.3rem}
+.grade .proj.destaque{display:flex;flex-direction:column;align-items:stretch;padding:0;min-height:0;background:var(--verde-2)}
+.grade .proj.destaque::before,.grade .proj.destaque::after{content:none}
+.fotos{display:grid;grid-template-columns:1.2fr 1fr;gap:3px;flex:1 1 auto;min-height:380px}
+.fotos.vert{grid-template-columns:1fr;flex:none;min-height:0}
+.fotos.vert figure{aspect-ratio:3/2}
+.fotos.vert figure:first-child img{object-position:50% 75%}
+.fotos.vert figure:last-child img{object-position:50% 100%}
+.fotos figure{position:relative;overflow:hidden;margin:0;background:var(--verde-3)}
+.fotos img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fotos figure:first-child img{object-position:40% 50%}
+.fotos figcaption{position:absolute;top:.9rem;left:.9rem;background:var(--amarelo);color:var(--verde-2);font:600 .78rem var(--texto);padding:.25rem .65rem}
+.legenda{padding:1.1rem 1.3rem 1.3rem;flex:none}
+@media(max-width:900px){.fotos,.fotos.vert{min-height:0;grid-template-columns:1fr 1fr}.fotos figure,.fotos.vert figure{aspect-ratio:4/3}}
+@media(max-width:520px){.fotos,.fotos.vert{grid-template-columns:1fr}}
+.fotos.uma{grid-template-columns:1fr;flex:none;min-height:0}
+.fotos.uma figure{aspect-ratio:1/1}
+.fotos.uma figure:first-child img{object-position:50% 50%}
+@media(max-width:900px){.fotos.uma{grid-template-columns:1fr}.fotos.uma figure{aspect-ratio:4/3}.fotos.uma figure:first-child img{object-position:50% 55%}}
+@media(max-width:520px){.fotos.uma figure{aspect-ratio:1/1}}
+.fotos.pano{grid-template-columns:1fr;flex:1 1 auto;min-height:300px}
+.fotos.pano figure:first-child img{object-position:65% 50%}
+@media(max-width:900px){.fotos.pano{grid-template-columns:1fr;min-height:0}.fotos.pano figure{aspect-ratio:4/3}}
+.fotos.fach{grid-template-columns:1fr;flex:none;min-height:0}
+.fotos.fach figure{aspect-ratio:1/1}
+.fotos.fach figure:first-child img{object-position:55% 50%}
+@media(max-width:900px){.fotos.fach{grid-template-columns:1fr}.fotos.fach figure{aspect-ratio:4/3}.fotos.fach figure:first-child img{object-position:50% 50%}}
+/* topo */
+header{position:fixed;inset:0 0 auto;z-index:50;background:rgba(12,42,31,.94);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:.65rem;text-decoration:none;color:var(--branco);font:700 1.5rem var(--titulo);letter-spacing:.04em}
+nav ul{display:flex;gap:1.8rem;list-style:none;align-items:center}
+nav a{color:var(--aco);text-decoration:none;font-size:.95rem;font-weight:500}
+nav a:hover{color:var(--amarelo)}
+.nav .btn{padding:.6rem 1.1rem;font-size:.92rem}
+.menu{display:none;background:none;border:0;color:var(--branco);width:44px;height:44px;cursor:pointer}
+.menu span,.menu span::before,.menu span::after{display:block;width:24px;height:2px;background:currentColor;position:relative;margin:auto}
+.menu span::before,.menu span::after{content:"";position:absolute;left:0}
+.menu span::before{top:-7px}.menu span::after{top:7px}
+
+/* hero */
+.hero{background:var(--verde);color:var(--branco);padding:135px 0 80px;position:relative;overflow:hidden;
+  background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:48px 48px}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:3rem;align-items:center}
+.hero h1{font-size:clamp(2.8rem,6.6vw,5.4rem);line-height:1.05;margin-bottom:1.3rem}
+.hero p{font-size:1.1rem;color:var(--aco-2);max-width:46ch;margin-bottom:1.8rem}
+.acoes{display:flex;flex-wrap:wrap;gap:.9rem}
+.truss{width:100%;height:auto;overflow:visible}
+.truss path,.truss line{stroke:var(--amarelo);stroke-width:5;stroke-linecap:square;fill:none}
+.truss .fino{stroke:rgba(248,209,23,.6);stroke-width:2.5}
+.truss .cota{stroke:rgba(255,255,255,.35);stroke-width:1.5}
+.truss text{fill:var(--aco-2);font:500 13px var(--texto)}
+.truss .no{fill:var(--verde);stroke:var(--amarelo);stroke-width:3}
+@media(prefers-reduced-motion:no-preference){
+  .truss .d{stroke-dasharray:var(--l);stroke-dashoffset:var(--l);animation:traco 1.6s cubic-bezier(.5,0,.2,1) forwards;animation-delay:var(--a,0s)}
+  @keyframes traco{to{stroke-dashoffset:0}}
+}
+
+/* faixa */
+.faixa{background:var(--amarelo);color:var(--verde-2)}
+.faixa .wrap{display:flex;flex-wrap:wrap;gap:.6rem 2.4rem;padding:1.05rem 0;font-weight:600;font-size:.98rem}
+
+section{padding:90px 0}
+.topo-sec{display:flex;justify-content:space-between;align-items:end;gap:2rem;flex-wrap:wrap;margin-bottom:2.5rem}
+.topo-sec p{max-width:44ch;color:var(--cinza)}
+
+/* sobre */
+.sobre .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:3.25rem;align-items:start}
+.sobre .txt p{margin-bottom:1.1rem;color:#27413a}
+.sobre .txt h2+p{margin-top:1.4rem}
+.sobre .bloco{aspect-ratio:4/5;background:linear-gradient(135deg,var(--verde-3),var(--verde));position:relative;display:grid;place-items:end start;padding:1.5rem;color:var(--aco-2);font-size:.9rem;
+  background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.05) 0 2px,transparent 2px 22px),linear-gradient(135deg,var(--verde-3),var(--verde))}
+.sobre .bloco::before{content:"";position:absolute;left:0;top:0;width:38%;height:8px;background:var(--amarelo)}
+.sobre .bloco img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:35% 50%}
+.sobre .bloco::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(12,42,31,.88),rgba(12,42,31,0) 60%)}
+.sobre .bloco::before{z-index:2}
+.sobre .bloco>div{position:relative;z-index:2}
+.sobre .bloco>div span{display:inline-block;margin-left:-.6rem;padding:.25rem .6rem;background:rgba(0,0,0,.28);-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px)}
+
+/* serviços */
+.servicos{background:var(--branco)}
+.lista{border-top:2px solid var(--verde)}
+.item{display:grid;grid-template-columns:1fr 1.2fr auto;gap:2rem;align-items:center;padding:1.8rem 0;border-bottom:1px solid var(--aco-2);transition:background-color .25s ease,box-shadow .25s ease}
+.item h3{font-size:1.8rem}
+.item p{color:var(--cinza);font-size:.98rem}
+.item a{font-weight:600;font-size:.95rem;text-decoration:none;border-bottom:2px solid var(--amarelo);padding-bottom:2px;white-space:nowrap}
+
+/* projetos */
+.grade{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.proj{position:relative;min-height:260px;display:flex;align-items:end;padding:1.3rem;color:var(--branco);overflow:hidden;
+  background:linear-gradient(160deg,var(--c1,#2c4a3d),var(--c2,#12382A))}
+.proj::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 2px,transparent 2px 26px)}
+.proj div{position:relative}
+.proj h3{font-size:1.6rem}
+.proj span{font-size:.88rem;color:var(--aco-2)}
+.proj:nth-child(1){grid-column:span 4;min-height:360px;--c1:#3a5a4a}
+.proj:nth-child(2){grid-column:span 2;--c1:#566159;--c2:#2b332e}
+.proj:nth-child(3){grid-column:span 2;--c1:#2f5a47}
+.proj:nth-child(4){grid-column:span 2;--c1:#6a6f58;--c2:#2f3a2c}
+.proj:nth-child(5){grid-column:span 2;--c1:#3f5f52}
+
+/* diferenciais */
+.dif{background:var(--verde);color:var(--branco)}
+.dif h2{color:var(--branco);max-width:22ch}
+.cols{display:grid;grid-template-columns:repeat(4,1fr);margin-top:2.5rem}
+.col{padding:0 1.6rem;border-left:2px solid var(--amarelo)}
+.col h3{font-size:1.5rem;margin-bottom:.6rem}
+.col p{color:var(--aco-2);font-size:.96rem}
+
+/* orçamento */
+.orc{background:var(--amarelo);color:var(--verde-2)}
+.orc .wrap{display:grid;grid-template-columns:1fr 1fr;gap:3.25rem;align-items:start}
+.orc p{margin-top:1.2rem;max-width:40ch}
+form{display:grid;gap:1rem}
+label{font-weight:600;font-size:.92rem;display:grid;gap:.35rem}
+input,select,textarea{font:inherit;padding:.8rem .9rem;border:2px solid var(--verde-2);background:var(--branco);color:var(--verde-2);border-radius:0;width:100%}
+textarea{min-height:100px;resize:vertical}
+form .btn{background:var(--verde-2);border-color:var(--verde-2);color:var(--amarelo);justify-content:center}
+form .btn:hover{background:transparent;color:var(--verde-2)}
+
+footer{background:var(--verde-2);color:var(--aco-2);padding:60px 0 30px;font-size:.95rem}
+footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+footer h3{font-size:1.3rem;color:var(--branco);margin-bottom:.6rem}
+footer .wrap p+p{margin-top:.6rem}
+footer a{text-decoration:none}footer a:hover{color:var(--amarelo)}
+.legal{width:min(var(--max),100% - 40px);margin:2.5rem auto 0;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.12);font-size:.85rem}
+
+.zap{position:fixed;right:18px;bottom:18px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+.zap svg{width:30px;height:30px;fill:#fff}
+
+@media(max-width:900px){
+  section{padding:72px 0}
+  .menu{display:block}
+  nav{position:absolute;top:68px;left:0;right:0;background:var(--verde-2);display:none;padding:1rem 20px 1.4rem}
+  nav.aberto{display:block}
+  nav ul{flex-direction:column;align-items:flex-start;gap:1rem}
+  .hero{padding:120px 0 60px}
+  .hero .wrap,.sobre .wrap,.orc .wrap,.parc .wrap{grid-template-columns:1fr;gap:2.5rem}
+  .sobre .bloco{aspect-ratio:16/9}
+  .item{grid-template-columns:1fr;gap:.6rem}
+  .cols{grid-template-columns:1fr 1fr;row-gap:2rem}
+  .grade{grid-template-columns:1fr}
+  .proj:nth-child(n){grid-column:auto;min-height:230px}
+  footer .wrap{grid-template-columns:1fr}
+}
+@media(max-width:520px){.cols{grid-template-columns:1fr}}
+/* ===== Interações e acabamento ===== */
+/* fotos dos projetos: botão que abre o visualizador */
+.ampliar{position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;border:0;background:none;display:block;overflow:hidden;cursor:zoom-in}
+.ampliar img{transition:transform .4s ease}
+.fotos figcaption{pointer-events:none}
+.grade .proj.destaque{transition:box-shadow .3s ease}
+/* serviços, diferenciais e botões flutuantes */
+.item h3{transition:transform .25s ease}
+.item a{transition:background-color .2s ease}
+.col{transition:transform .3s ease,box-shadow .3s ease}
+.col p{transition:color .3s ease}
+.zap{transition:transform .2s ease,box-shadow .2s ease}
+.menu{transition:color .2s ease}
+/* hover só em dispositivos com mouse (evita estado "preso" no toque) */
+@media(hover:hover){
+  .ig:hover{color:var(--verde);box-shadow:0 4px 0 var(--amarelo)}
+  footer .ig:hover{color:var(--branco)}
+  .ampliar:hover img{transform:scale(1.03)}
+  .grade .proj.destaque:hover{box-shadow:0 14px 32px rgba(12,42,31,.22)}
+  .item:hover{background:var(--aco);box-shadow:-1.2rem 0 0 var(--aco),1.2rem 0 0 var(--aco)}
+  .item:hover h3{transform:translateX(.4rem)}
+  .item:hover a{background:rgba(248,209,23,.45)}
+  .item a:hover{background:var(--amarelo)}
+  .col:hover{transform:translateY(-3px);box-shadow:-2px 0 0 var(--amarelo)}
+  .col:hover p{color:var(--branco)}
+  .zap:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(0,0,0,.35)}
+  .menu:hover{color:var(--amarelo)}
+}
+/* foco do teclado: contorno escuro nas seções claras, onde o amarelo some */
+.sobre :focus-visible,.servicos :focus-visible,.parc :focus-visible,#projetos :focus-visible,.orc :focus-visible{outline-color:var(--verde)}
+#projetos .ampliar:focus-visible{outline-color:var(--amarelo);outline-offset:-4px}
+/* visualizador de fotos */
+/* trava a rolagem; --sbw (largura da barra de rolagem, medida no JS) evita o "pulo" lateral da página */
+html.lb-aberto{overflow:hidden;padding-right:var(--sbw,0px)}
+html.lb-aberto header{padding-right:var(--sbw,0px)}
+html.lb-aberto .zap{right:calc(18px + var(--sbw,0px))}
+.lightbox{position:fixed;inset:0;width:100%;height:100%;max-width:none;max-height:none;margin:0;padding:0;border:0;background:rgba(6,20,14,.94);color:var(--branco);overscroll-behavior:contain;touch-action:pinch-zoom}
+.lightbox[open]{display:grid;place-items:center}
+.lightbox::backdrop{background:rgba(6,20,14,.94)}
+.lightbox img{display:block;width:auto;height:auto;max-width:calc(100vw - 32px);max-height:calc(100vh - 112px);max-height:calc(100dvh - 112px);object-fit:contain}
+.lb-fechar{position:absolute;top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right));width:44px;height:44px;display:grid;place-items:center;border:2px solid rgba(255,255,255,.45);border-radius:50%;background:rgba(12,42,31,.6);color:var(--branco);font:400 1.9rem/1 var(--texto);cursor:pointer;transition:border-color .2s,color .2s}
+.lb-fechar:hover{border-color:var(--amarelo);color:var(--amarelo)}
+@media(prefers-reduced-motion:no-preference){
+  .lightbox[open]{animation:lb-in .2s ease}
+  @keyframes lb-in{from{opacity:0}to{opacity:1}}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .ampliar img,.item h3,.col,.zap{transition:none}
+  .ampliar:hover img,.item:hover h3,.col:hover,.zap:hover{transform:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#inicio" aria-label="Sivekk Estruturas Metálicas, página inicial"><img src="imagens/logo-sivekk.png" alt="Sivekk" width="92" height="48"><span>Estruturas<br>metálicas</span></a>
+    <button class="menu" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false"><span></span></button>
+    <nav id="menu">
+      <ul>
+        <li><a href="#sobre">A empresa</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#profissionais">Para profissionais</a></li>
+        <li><a href="#diferenciais">Diferenciais</a></li>
+        <li><a class="btn" data-wa="Olá! Vim pelo site e gostaria de um orçamento." href="#orcamento">Pedir orçamento</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="hero" id="inicio">
+  <div class="wrap">
+    <div>
+      <h1>Soluções e estruturas metálicas, do início à entrega.</h1>
+      <p>Desde 1994, atendemos obras residenciais, comerciais e empresariais e somos parceiros de arquitetos, engenheiros e construtoras na execução de soluções metálicas sob medida, em Curitiba e Região Metropolitana.</p>
+      <div class="acoes">
+        <a class="btn" data-wa="Olá! Vim pelo site e gostaria de um orçamento." href="#orcamento">Solicitar orçamento</a>
+        <a class="btn sec" href="#projetos">Ver projetos</a>
+      </div>
+    </div>
+    <svg class="truss" viewBox="0 0 600 340" role="img" aria-label="Desenho técnico de uma tesoura de cobertura metálica">
+      <line class="cota" x1="30" y1="318" x2="570" y2="318"/><text x="262" y="336">vão livre</text>
+      <path class="d" pathLength="100" style="--l:100;--a:.1s" d="M30 270 L300 60 L570 270"/>
+      <path class="d" pathLength="100" style="--l:100;--a:.5s" d="M30 270 H570"/>
+      <path class="d fino" pathLength="100" style="--l:100;--a:1s" d="M120 270 L300 60 L480 270"/>
+      <path class="d fino" pathLength="100" style="--l:100;--a:1.2s" d="M210 270 L300 60 L390 270"/>
+      <path class="d fino" pathLength="100" style="--l:100;--a:1.3s" d="M300 60 V270"/>
+      <path class="d fino" pathLength="100" style="--l:100;--a:1.4s" d="M165 165 H435"/>
+      <circle class="no" cx="300" cy="60" r="8"/><circle class="no" cx="30" cy="270" r="8"/><circle class="no" cx="570" cy="270" r="8"/><circle class="no" cx="300" cy="270" r="8"/>
+    </svg>
+  </div>
+</div>
+
+<div class="faixa"><div class="wrap"><span>Desde 1994</span><span>Curitiba e Região Metropolitana</span><span>Residencial</span><span>Comercial</span><span>Empresarial</span><span>Arquitetos e engenheiros</span><span>Construtoras</span></div></div>
+
+<section class="sobre" id="sobre">
+  <div class="wrap">
+    <div class="bloco"><img src="imagens/sobre-obra-antiga.jpg" width="1200" height="900" alt="Fotografia antiga de montagem de estrutura metálica em obra, com profissionais trabalhando sobre andaime" loading="lazy" decoding="async"><div><span>Em atividade desde</span><strong>1994</strong></div></div>
+    <div class="txt">
+      <h2>Soluções metálicas para projetos de diferentes portes.</h2>
+      <p>A Sivekk atua em obras residenciais, comerciais e empresariais, ao lado de arquitetos, engenheiros e construtoras.</p>
+      <p>Nosso foco são projetos bem executados e soluções sob medida, com atendimento organizado do primeiro contato à entrega.</p>
+      <ul class="dados">
+        <li>Atendimento: Curitiba e Região Metropolitana.</li>
+        <li>Experiência: diversas obras realizadas em diferentes regiões do Paraná.</li>
+      </ul>
+      <div class="historia"><h3>Nossa história</h3>
+        <p>Tudo começou na área de representação. Foi a excelência e a maestria nos serviços prestados que deram origem à Sivekk, em 1994.</p>
+        <p>Desde o primeiro dia, já executávamos grandes serviços metálicos. Obra após obra, a Sivekk construiu autoridade e passou a atender todo o Paraná.</p>
+        <p>E não paramos: seguimos nos inovando e nos atualizando com o mercado, o que mantém a Sivekk relevante no setor de estruturas metálicas até hoje.</p>
+      </div>
+      <a class="btn esc" data-wa="Olá! Gostaria de conhecer melhor a Sivekk." href="#orcamento">Falar com a equipe</a>
+    </div>
+  </div>
+</section>
+
+<section class="servicos" id="servicos">
+  <div class="wrap">
+    <div class="topo-sec"><h2>O que a Sivekk faz.</h2><p>Soluções sob medida para cada tipo de obra.</p></div>
+    <div class="lista">
+      <div class="item"><h3>Estruturas metálicas</h3><p>Estruturas em aço para obras comerciais, empresariais e residenciais, executadas conforme o projeto.</p><a data-wa="Olá! Quero orçamento de estruturas metálicas." href="#orcamento">Orçar este serviço</a></div>
+      <div class="item"><h3>Coberturas metálicas</h3><p>Coberturas definidas conforme o local, o vão e o uso da edificação.</p><a data-wa="Olá! Quero orçamento de cobertura metálica." href="#orcamento">Orçar este serviço</a></div>
+      <div class="item"><h3>Escadas metálicas</h3><p>Escadas que unem resistência e acabamento ao ambiente onde serão instaladas.</p><a data-wa="Olá! Quero orçamento de escada metálica." href="#orcamento">Orçar este serviço</a></div>
+      <div class="item"><h3>Mezaninos</h3><p>Ampliação de área útil em galpões, lojas e outros espaços, com estrutura metálica.</p><a data-wa="Olá! Quero orçamento de mezanino." href="#orcamento">Orçar este serviço</a></div>
+      <div class="item"><h3>Fachadas e fechamentos</h3><p>Fachadas e fechamentos metálicos para visual e proteção da edificação.</p><a data-wa="Olá! Quero orçamento de fachada ou fechamento metálico." href="#orcamento">Orçar este serviço</a></div>
+      <div class="item"><h3>Telhas metálicas e termoacústicas</h3><p>Telhas metálicas e termoacústicas para coberturas e fechamentos, conforme as necessidades de conforto e desempenho.</p><a data-wa="Olá! Quero orçamento de telhas metálicas ou termoacústicas." href="#orcamento">Orçar este serviço</a></div>
+      <div class="item"><h3>Portões e automações</h3><p>Portões e automação para acessos residenciais, comerciais e empresariais.</p><a data-wa="Olá! Quero orçamento de portão e automação." href="#orcamento">Orçar este serviço</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="parc" id="profissionais">
+  <div class="wrap">
+    <h2>Um parceiro para executar a parte metálica do seu projeto.</h2>
+    <div>
+      <p>Se você projeta ou conduz obras, a Sivekk pode ser a empresa responsável pelas soluções metálicas, com atendimento direto e objetivo e atenção ao que foi especificado.</p>
+      <ul class="dados">
+        <li>Estruturas, coberturas, escadas, mezaninos, fachadas e fechamentos sob medida.</li>
+        <li>Clareza no que é combinado.</li>
+        <li>Entrega bem executada e alinhada à necessidade do projeto e do cliente.</li>
+      </ul>
+      <a class="btn esc" data-wa="Olá! Sou profissional da construção (arquiteto, engenheiro ou construtora) e gostaria de conversar sobre uma parceria em soluções metálicas." href="#orcamento">Conversar sobre parceria</a>
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <div class="wrap">
+    <div class="topo-sec"><h2>Projetos que já saíram do papel.</h2><p>Veja também obras e projetos reais da Sivekk no <a class="ig" data-ig href="#">Instagram</a>.</p></div>
+    <div class="grade">
+      <div class="proj destaque">
+        <div class="fotos">
+          <figure><button class="ampliar" type="button" aria-haspopup="dialog"><img src="imagens/estruturas-paranagua-em-execucao.jpg" width="1400" height="1040" alt="Guindaste amarelo içando uma tesoura em arco da cobertura metálica durante a execução da obra da Sivekk em Paranaguá" loading="lazy" decoding="async"></button><figcaption>Em execução</figcaption></figure>
+          <figure><button class="ampliar" type="button" aria-haspopup="dialog"><img src="imagens/estruturas-paranagua-resultado.jpg" width="1200" height="1200" alt="Estrutura metálica em arco da cobertura em etapa avançada, obra da Sivekk em Paranaguá" loading="lazy" decoding="async"></button><figcaption>Resultado</figcaption></figure>
+        </div>
+        <div class="legenda"><h3>Estruturas metálicas</h3><span>Obra realizada pela Sivekk em Paranaguá, litoral do Paraná.</span></div>
+      </div>
+      <div class="proj destaque">
+        <div class="fotos vert">
+          <figure><button class="ampliar" type="button" aria-haspopup="dialog"><img src="imagens/coberturas-santa-felicidade-estrutura.jpg" width="1300" height="975" alt="Estrutura metálica da cobertura em execução, antes da instalação completa das telhas, em obra da Sivekk em condomínio em Santa Felicidade, Curitiba" loading="lazy" decoding="async"></button><figcaption>Estrutura</figcaption></figure>
+          <figure><button class="ampliar" type="button" aria-haspopup="dialog"><img src="imagens/coberturas-santa-felicidade-finalizada.jpg" width="1300" height="953" alt="Cobertura finalizada com telhas metálicas pretas, obra da Sivekk em condomínio em Santa Felicidade, Curitiba" loading="lazy" decoding="async"></button><figcaption>Cobertura finalizada</figcaption></figure>
+        </div>
+        <div class="legenda"><h3>Coberturas metálicas</h3><span>Obra realizada pela Sivekk em condomínio em Santa Felicidade, Curitiba – PR.</span></div>
+      </div>
+      <div class="proj destaque">
+        <div class="fotos uma">
+          <figure><button class="ampliar" type="button" aria-haspopup="dialog"><img src="imagens/escadas-boa-vista.jpg" width="1000" height="1000" alt="Escada metálica verde com patamares e guarda-corpos, executada pela Sivekk no bairro Boa Vista, em Curitiba, com faixa de entrada em primeiro plano" loading="lazy" decoding="async"></button></figure>
+        </div>
+        <div class="legenda"><h3>Escadas metálicas</h3><span>Obra realizada pela Sivekk no bairro Boa Vista, em Curitiba – PR.</span></div>
+      </div>
+      <div class="proj destaque">
+        <div class="fotos pano">
+          <figure><button class="ampliar" type="button" aria-haspopup="dialog"><img src="imagens/mezanino-teckplast-cic.jpg" width="2000" height="729" alt="Mezanino metálico branco com escada e guarda-corpos, executado pela Sivekk dentro da fábrica da Teckplast, no bairro CIC, em Curitiba, com funcionários trabalhando sob a estrutura" loading="lazy" decoding="async"></button></figure>
+        </div>
+        <div class="legenda"><h3>Mezaninos</h3><span>Mezanino executado pela Sivekk na fábrica da Teckplast, no bairro CIC, Curitiba – PR.</span></div>
+      </div>
+      <div class="proj destaque">
+        <div class="fotos fach">
+          <figure><button class="ampliar" type="button" aria-haspopup="dialog"><img src="imagens/fachada-avipec.jpg" width="1400" height="1050" alt="Fachada azul, branca e amarela com letreiro da Avipec e portas de enrolar azuis, executada pela Sivekk" loading="lazy" decoding="async"></button></figure>
+        </div>
+        <div class="legenda"><h3>Fachadas e fechamentos</h3><span>Obra realizada pela Sivekk para a Avipec, em São José dos Pinhais – PR.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dif" id="diferenciais">
+  <div class="wrap">
+    <h2>Comprometimento do início à entrega.</h2>
+    <p class="sub">Atendimento próximo, organizado e responsável.</p>
+    <div class="cols">
+      <div class="col"><h3>Atendimento próximo e objetivo</h3><p>Você explica o que precisa e recebe retorno claro, sem rodeios e sem burocracia.</p></div>
+      <div class="col"><h3>Cada obra, uma solução</h3><p>Medidas, uso e exigências mudam de obra para obra. Buscamos a solução adequada a cada projeto, a partir dessas necessidades.</p></div>
+      <div class="col"><h3>Compromisso com o combinado</h3><p>O que é definido na conversa e no orçamento orienta o trabalho.</p></div>
+      <div class="col"><h3>Atenção aos detalhes</h3><p>Buscamos uma entrega bem executada, com acabamento cuidadoso e alinhada à necessidade do cliente.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="orc" id="orcamento">
+  <div class="wrap">
+    <div><h2>Peça seu orçamento pelo WhatsApp.</h2><p>Conte o que você precisa. Sua mensagem abre pronta no WhatsApp e nossa equipe responde com os próximos passos.</p><p>Atendemos Curitiba e Região Metropolitana, com projetos em um raio de aproximadamente 100 km, conforme o tipo e o porte.</p></div>
+    <form id="form">
+      <label>Seu nome<input name="nome" required autocomplete="name"></label>
+      <label>Cidade / Bairro<input name="local" required placeholder="Ex.: Curitiba – Santa Felicidade"></label>
+      <label>Tipo de obra
+        <select name="tipo"><option>Estruturas metálicas</option><option>Coberturas metálicas</option><option>Escadas metálicas</option><option>Mezaninos</option><option>Fachadas e fechamentos</option><option>Telhas metálicas e termoacústicas</option><option>Portões e automações</option><option>Outro ou ainda não sei, preciso de orientação</option></select>
+      </label>
+      <label>Detalhes da obra<span class="dica">Informe medidas, prazo desejado e outras informações relevantes.</span><textarea name="msg" placeholder="Ex.: medidas aproximadas, prazo desejado"></textarea></label>
+      <button class="btn" type="submit">Enviar pelo WhatsApp</button>
+      <p class="dica">Tem projeto, desenho ou foto do local? Depois que a conversa abrir no WhatsApp, é só enviar por lá mesmo.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><h3>Sivekk Estruturas Metálicas</h3><p>Soluções e estruturas metálicas desde 1994.</p>
+      <p><a class="ig" data-ig href="#">Instagram @sivekestruturasmetalicas</a></p></div>
+    <div><h3>Contato</h3><p><a data-wa="Olá! Vim pelo site." href="#orcamento">WhatsApp: (41) 3205-6808</a><br><a href="mailto:sivekobrasmetalicas@hotmail.com">sivekobrasmetalicas@hotmail.com</a></p></div>
+    <div><h3>Atendimento</h3><p>Segunda a quinta: 8h às 18h<br>Sexta: 8h às 17h<br>Sábado e domingo: fechado</p><p>Curitiba e Região Metropolitana<br>R. Marechal Octávio Saldanha Mazza, 8788<br>Capão Raso, Curitiba – PR, CEP 81150-060</p></div>
+  </div>
+  <p class="legal">© <span id="ano"></span> Sivekk Estruturas Metálicas. Todos os direitos reservados. CNPJ 42.712.697/0001-73</p>
+</footer>
+
+<a class="zap" data-wa="Olá! Vim pelo site e gostaria de um orçamento." href="#orcamento" aria-label="Falar pelo WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-1.9 1.3-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.6.3.1.2.1.8-.1 1.6Z"/></svg>
+</a>
+
+<dialog class="lightbox" id="lightbox" aria-label="Foto ampliada">
+  <button class="lb-fechar" type="button" aria-label="Fechar foto">×</button>
+  <img alt="" decoding="async">
+</dialog>
+
+<script>
+// Troque pelo número real, com DDI+DDD, só dígitos (ex.: 5541999999999)
+const WHATSAPP = "554132056808";
+// Link do Instagram da Sivekk
+const INSTAGRAM = "https://www.instagram.com/sivekestruturasmetalicas/";
+const wa = t => "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(t);
+
+document.querySelectorAll("[data-wa]").forEach(a => {
+  a.href = wa(a.dataset.wa);
+  a.target = "_blank";
+  a.rel = "noopener";
+});
+
+document.querySelectorAll("[data-ig]").forEach(a => {
+  a.href = INSTAGRAM; a.target = "_blank"; a.rel = "noopener";
+});
+
+document.getElementById("form").addEventListener("submit", e => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  for (const campo of ["nome", "local"]) {
+    if (!(f.get(campo) || "").trim()) { e.target.elements[campo].value = ""; e.target.elements[campo].reportValidity(); return; }
+  }
+  const nome = f.get("nome").trim();
+  const local = f.get("local").trim();
+  const detalhes = (f.get("msg") || "").trim();
+  const linhas = [
+    "Olá, gostaria de solicitar um orçamento.",
+    "Nome: " + nome,
+    "Cidade/Bairro: " + local,
+    "Tipo de serviço: " + f.get("tipo")
+  ];
+  if (detalhes) linhas.push("Sobre o projeto:", detalhes);
+  linhas.push("Posso enviar fotos, medidas ou o projeto por aqui, se necessário.");
+  const texto = linhas.join("\n");
+  window.open(wa(texto), "_blank", "noopener");
+});
+
+const btn = document.querySelector(".menu"), nav = document.getElementById("menu");
+btn.addEventListener("click", () => {
+  const aberto = nav.classList.toggle("aberto");
+  btn.setAttribute("aria-expanded", aberto);
+});
+nav.addEventListener("click", e => { if (e.target.tagName === "A") { nav.classList.remove("aberto"); btn.setAttribute("aria-expanded", false); } });
+
+document.getElementById("ano").textContent = new Date().getFullYear();
+
+// Visualizador de fotos: cada foto abre a própria imagem em tamanho maior
+const lb = document.getElementById("lightbox"), lbImg = lb.querySelector("img");
+let lbGatilho = null;
+document.querySelectorAll(".ampliar").forEach(b => {
+  const foto = b.querySelector("img");
+  b.setAttribute("aria-label", "Ampliar foto: " + foto.alt);
+  b.addEventListener("click", () => {
+    if (typeof lb.showModal !== "function") { window.open(foto.currentSrc || foto.src, "_blank", "noopener"); return; }
+    lbGatilho = b;
+    lbImg.src = foto.currentSrc || foto.src;
+    lbImg.alt = foto.alt;
+    document.documentElement.style.setProperty("--sbw", (innerWidth - document.documentElement.clientWidth) + "px");
+    document.documentElement.classList.add("lb-aberto");
+    lb.showModal();
+  });
+});
+// clique fora da imagem (inclui o botão ×) fecha; ESC fecha pelo próprio <dialog>
+lb.addEventListener("click", e => { if (e.target !== lbImg) lb.close(); });
+lb.addEventListener("close", () => {
+  document.documentElement.classList.remove("lb-aberto");
+  lbImg.removeAttribute("src");
+  if (lbGatilho) { lbGatilho.focus(); lbGatilho = null; }
+});
+</script>
+</body>
+</html>
